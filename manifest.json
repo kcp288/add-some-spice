@@ -1,17 +1,13 @@
 {
-  "name": "Great App Name",
-  "description": "Pithy description (132 characters or less, no HTML)",
+  "name": "Badum Ching",
+  "description": "You won't believe what happens next",
   "version": "0.0.0.1",
   "manifest_version": 2,
   "icons": {
     "128": "icon_128.png"
   },
-  "app": {
-    "urls": [
-      "http://mysubdomain.example.com/"
-    ],
-    "launch": {
-      "web_url": "http://mysubdomain.example.com/"
-    }
+  "browser_action": {
+    "default_icon": "icon_128.png",
+    "default_popup": "badum.html"
   }
 }
