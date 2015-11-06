@@ -1,21 +1,23 @@
 {
-  "name": "Badum Ching",
+  "name": "Add Some Spice",
   "description": "You won't believe what happens next",
   "version": "0.0.0.1",
   "manifest_version": 2,
   "icons": {
-    "128": "icon_128.png"
-  },
-   "content_scripts": [{
-      "matches": ["https://www.pinterest.com/*"],
-      "js": ["callscript.js"]
-  }],
-  "web_accessible_resources": ["script.js"],
+    "128": "icon.png"
+  }, 
+
   "permissions": [
-     "tabs", "<all_urls>"
-  ]/*,
+    "tabs", "<all_urls>"
+  ],
+
   "browser_action": {
-    "default_popup": "monkey.html",
-    "default_icon": "icon_128.png"
-  } */
+    "default_icon": "icon.png",
+    "default_popup": "monkey.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
 }

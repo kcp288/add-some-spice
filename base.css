@@ -1,0 +1,16 @@
+button {
+  background: transparent;
+  border-color: transparent;
+  text-align: center;
+  height: 70px;
+  width: 130px;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+  color: black;
+}
+button:focus {outline:0;}
+button:hover {
+  color: #ff00cc;
+}
