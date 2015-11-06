@@ -1,0 +1,39 @@
+<!--
+<!DOCTYPE html>
+<html>
+  <body style="width: 300px">
+
+    Open <a href="http://stackoverflow.com" target="_blank">this page</a> and then 
+    <button id="clickme">click me</button>
+    <script type="text/javascript" src="test.js"></script>
+  </body>
+</html> -->
+
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+    </style>
+
+    <script src="callscript.js">
+    console.log("test");
+    chrome.tabs.executeScript();
+    </script>
+  </head>
+  <body>
+    Okay trying this out
+  </body>
+</html>
+

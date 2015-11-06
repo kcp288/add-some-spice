@@ -6,8 +6,16 @@
   "icons": {
     "128": "icon_128.png"
   },
+   "content_scripts": [{
+      "matches": ["https://www.pinterest.com/*"],
+      "js": ["callscript.js"]
+  }],
+  "web_accessible_resources": ["script.js"],
+  "permissions": [
+     "tabs", "<all_urls>"
+  ]/*,
   "browser_action": {
-    "default_icon": "icon_128.png",
-    "default_popup": "badum.html"
-  }
+    "default_popup": "monkey.html",
+    "default_icon": "icon_128.png"
+  } */
 }
