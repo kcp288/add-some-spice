@@ -14,3 +14,17 @@ button:focus {outline:0;}
 button:hover {
   color: #ff00cc;
 }
+input {
+  margin-top: 30px;
+  font-size: .9em;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  border: transparent;
+}
+input[type=text] {
+  text-align: center;
+  background: white;
+  width: 200px;
+  height: 40px;
+  color: #34324b;
+}
